@@ -24,8 +24,9 @@ body {
 
 #container {
     width: 80%;
-    margin: 2rem auto;
+    margin: 4rem auto;
     background-color: white;
+    border-radius: .5rem;
 }
 
 .buttons {
@@ -37,13 +38,15 @@ body {
     color: white;
     border-style: none;
     border-radius: 5px;
+    padding: .5rem;
 }
 
 #btn-section {
     background-color: white;
     color: lightgray;
-    border-color: lightgray;
+    border: 1px lightgray solid;
     border-radius: 5px;
+    padding: .5rem;
 }
 
 .separator {
