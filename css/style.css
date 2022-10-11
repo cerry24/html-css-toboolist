@@ -52,7 +52,7 @@ body {
 }
 
 .lists {
-    padding: 3rem ;
+    padding: 3rem 3rem 0 3rem ;
 }
 
 ul {
@@ -62,6 +62,7 @@ ul {
 
 li {
     font-size: 1.2rem;
+    padding-top: 1rem;
 }
 
 .check {
@@ -70,10 +71,31 @@ li {
     border-radius: 100%;
 }
 
-.tag-editorial {
+.cross {
+    color: red;
+    border: 1px red solid;
+    border-radius: 100%;
+}
+
+.tag {
     font-size: .8rem;
-    background-color: rgb(0, 179, 250);
     color: white;
     padding: .5rem;
     border-radius: 1rem;
+}
+
+.tag.editorial {
+    background-color: rgb(0, 179, 250);
+}
+
+.tag.q1-goals {
+    background-color: blueviolet;
+}
+
+.tag.recruiting {
+    background-color: rgb(91, 150, 130);
+}
+
+.tag.mobile {
+    background-color: rgb(255, 114, 63);
 }
