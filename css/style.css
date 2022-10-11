@@ -55,6 +55,10 @@ body {
     padding: 3rem 3rem 0 3rem ;
 }
 
+.lists#final {
+    padding-bottom: 3rem;
+}
+
 ul {
     padding-left: 2.5rem;
     list-style: none;
@@ -98,4 +102,12 @@ li {
 
 .tag.mobile {
     background-color: rgb(255, 114, 63);
+}
+
+.tag.website {
+    background-color: palevioletred;
+}
+
+.tag.sales {
+    background-color: rgb(136, 178, 36);
 }
